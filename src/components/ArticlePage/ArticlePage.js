@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './ArticlePage.css';
 // import '../../Media/IphonePlus.css';
 
@@ -15,7 +16,9 @@ export default class ArticlePage extends Component {
                 depend on. When you're ready, cash out instantly.
               </p>
               <p>
-                <strong>MAKE MONEY</strong>
+                <Link to='/MakeMoney'>
+                  <strong>MAKE MONEY</strong>
+                </Link>
               </p>
             </div>
           </div>
