@@ -23,9 +23,11 @@ export default function LandingPage() {
           <br />
           <br />
           <br />
-          <div className='ride-container'>
-            <button className='rider-button'>Sign Up To Ride</button>
-          </div>
+          <Link to='/RiderPage'>
+            <div className='ride-container'>
+              <button className='rider-button'>Sign Up To Ride</button>
+            </div>
+          </Link>
         </div>
       </div>
       <div className='why-drive'>

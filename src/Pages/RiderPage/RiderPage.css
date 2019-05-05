@@ -1,0 +1,100 @@
+.hello-rider-container {
+  color: white;
+  /* background-color: #c3eae3; */
+  padding-top: 2.5rem;
+  padding-bottom: 4rem;
+  position: relative;
+  display: flex;
+  background-color: transparent;
+  padding: 5%;
+}
+.hello-rider-box {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  /* min-height: 26rem; */
+  padding-top: 1em;
+  margin-bottom: 5em;
+}
+.hello-rider {
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -14px;
+  margin-right: -14px;
+}
+.rider-text-app {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.heading-text {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -14px;
+  margin-right: -14px;
+}
+.heading-text > h6 {
+  letter-spacing: 0;
+  font-size: 2rem;
+  line-height: 1.25rem;
+  margin-bottom: 16px;
+}
+.heading-text > h1 {
+  font-size: 60px;
+  font-weight: 500;
+  text-align: left;
+}
+.make-bigger {
+  font-size: 180px;
+  font-weight: 500;
+  text-align: left;
+}
+.download-button {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -14px;
+  margin-right: -14px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+.download-button > a {
+  background-color: #ff00bf;
+  color: #ffffff;
+  border: none;
+  border-radius: 99999rem;
+  border: none;
+  display: inline-block;
+  font-family: inherit;
+  font-size: inherit;
+  text-decoration: none !important;
+  box-shadow: 0 5px 0 rgba(17, 17, 31, 0.25);
+  margin-bottom: 5px;
+  padding: 1rem 4rem;
+  font-weight: 700;
+}
+.shadow-box {
+  padding: 5%;
+  background: rgb(36, 36, 36);
+  text-align: center;
+  height: 100% !important;
+  border-radius: 6px;
+  background: -webkit-linear-gradient(
+    bottom,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(32, 32, 32, 0.4) 100%
+  );
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(83, 83, 83, 0.4) 100%
+  );
+}
