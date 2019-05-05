@@ -1,0 +1,62 @@
+.download-container {
+  background: rgb(36, 36, 36);
+  text-align: center;
+  height: 100% !important;
+  border-radius: 6px;
+  background: -webkit-linear-gradient(
+    bottom,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(32, 32, 32, 0.4) 100%
+  );
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(32, 32, 32, 0.4) 100%
+  );
+  padding: 2rem 0;
+  border-bottom: 1px solid #f3f3f5;
+  text-align: center;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.donload-container > h3 {
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  color: #ff00bf;
+}
+.the-three {
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  color: #ff00bf;
+  font-weight: 1200;
+  text-decoration: underline;
+}
+.jc {
+  justify-content: space-between;
+}
+.top-icons {
+  display: flex;
+  align-items: center;
+}
+.bottom-icons {
+  display: flex;
+  align-items: center;
+}
+.img-d {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  width: 10rem;
+  height: auto;
+}
+.img-container {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+.apple-badge {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}

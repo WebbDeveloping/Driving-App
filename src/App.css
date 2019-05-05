@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  /* background-color: #11111f; */
 }
 
 .App-logo {
@@ -22,6 +23,35 @@
 .App-link {
   color: #61dafb;
 }
+.pink_box {
+  /* margin: 1%; */
+  height: 15px;
+  width: 100%;
+  /* text-align: center; */
+  background-color: #c0c0c0;
+  /* -webkit-box-shadow: 0px 0px 15px 5px rgba(255, 0, 191, 0.75); */
+  /* -moz-box-shadow: 0px 0px 15px 5px rgba(255, 0, 191, 0.75); */
+  /* box-shadow: 0px 0px 15px 5px rgba(255, 0, 191, 0.35); */
+}
+.animated-container{
+  position: absolute;
+  width: 80%;
+}
+html, body {
+  position: relative;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+.top-app-container{
+  /* display: flex; */
+  /* flex-direction: row; */
+}
 
 @keyframes App-logo-spin {
   from {
@@ -29,5 +59,21 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 300px;
+  }
+}
+@-webkit-keyframes mymove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 300px;
   }
 }

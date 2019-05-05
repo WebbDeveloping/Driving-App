@@ -1,0 +1,219 @@
+.how-to {
+  margin-top: 5rem;
+}
+.how-to-section {
+  position: relative;
+}
+.how-img {
+  height: 280px;
+  background-color: white;
+  /* background-image: url(https://images.ctfassets.net/q8mvene1wzq4/3UsEjP8gZqlGqsPoe954mj/6b305dc4ab35430c50eddb69fa04788b/Bg_Illustration.jpg);
+   */
+}
+.steps {
+  background: rgb(36, 36, 36);
+  text-align: center;
+  height: 100% !important;
+  border-radius: 6px;
+  background: -webkit-linear-gradient(
+    bottom,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(32, 32, 32, 0.4) 100%
+  );
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(32, 32, 32, 0.4) 100%
+  );
+  z-index: 100;
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 10em;
+  max-width: 100%;
+  overflow: scroll;
+  -webkit-order: 2;
+  order: 2;
+  display: block;
+  position: relative;
+}
+.title-markers {
+  padding-top: 1.5rem;
+  margin-bottom: 0;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.title-markers > h3 {
+  color: white;
+  letter-spacing: -0.075rem;
+  font-size: 2rem;
+  line-height: 2.625rem;
+}
+.single-step {
+  flex: 0 0 75%;
+  max-width: 75%;
+  text-align: left;
+  margin-left: 10%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-order: 1;
+  order: 1;
+  width: 175%;
+}
+.single-step-container > h3 {
+  color: white;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 600;
+}
+.single-step-container {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(83, 83, 83, 0.4) 100%
+  );
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 5em;
+  padding-top: 1em;
+  -webkit-animation-name: move;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: right;
+  -webkit-animation-timing-function: linear;
+}
+.para-box {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+.para-container {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  /* z-index: 1; */
+}
+.para-container > p {
+  color: white;
+}
+/* // */
+/* // */
+/* // */
+/* // */
+/* // */
+/* HAPPY */
+.happy {
+  margin-top: 5rem;
+  background: rgb(36, 36, 36);
+  text-align: center;
+  height: 100% !important;
+  border-radius: 6px;
+  background: -webkit-linear-gradient(
+    bottom,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(32, 32, 32, 0.4) 100%
+  );
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(32, 32, 32, 0.4) 100%
+  );
+}
+.happy-image-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+.happy-text-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  margin: 2%;
+  padding-bottom: 5em;
+}
+.happy-text {
+  flex: 0 0 100%;
+  max-width: 95%;
+}
+.happy-text {
+  margin-top: 1;
+  font-weight: 600;
+}
+.happy-text > h3 {
+  color: white;
+  letter-spacing: -0.075rem;
+  font-size: 2.5rem;
+  line-height: 2.625rem;
+}
+.p-stuff {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+/* // FROM LYFT WEBSITE // */
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+.slick-list {
+  transform: translate3d(0, 0, 0);
+  animation: slide infinite 3s alternate;
+}
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+/* UL */
+._2fDyyg {
+  position: absolute;
+  margin-top: 0.25rem;
+  z-index: 100;
+  display: block;
+  padding: 0 1.5rem;
+  list-style: none;
+}
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@keyframes slide {
+  0% {
+    margin-left: 0px;
+  }
+  50% {
+    margin-left: -100px;
+  }
+  100% {
+    margin-left: -200px;
+  }
+}

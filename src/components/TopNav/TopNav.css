@@ -1,0 +1,60 @@
+/* // */
+/* // */
+/* // */
+/* // */
+/* // */
+/* // from code pen */
+nav {
+  text-align: center;
+  font-size: 1.25em;
+}
+
+nav ul {
+  border-radius: 0.25em;
+  background: #11111f;
+  list-style: none;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+nav li {
+  position: relative;
+  display: inline-block;
+  border-bottom: none;
+  border-radius: 0.25em 0.25em 0 0;
+}
+
+nav li:hover {
+  box-shadow: 0 -5px 0 #ff00bf;
+}
+
+nav a {
+  color: white;
+  display: block;
+  padding: 0.5em;
+  text-decoration: none;
+}
+
+nav a:hover {
+  border-radius: 0 0 0.25em 0.25em;
+  background: #ff00bf;
+  box-shadow: 0 5px 0 #11111f;
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+
+/*Highlight Home button
+-----------------------------------------------*/
+.home {
+  box-shadow: 0 -5px 0 #ff00bf;
+}
+
+.home a {
+  background: #ff00bf;
+  box-shadow: 0 5px 0;
+  color: #11111f;
+  border-radius: 0 0 0.25em 0.25em;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}

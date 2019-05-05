@@ -1,0 +1,69 @@
+.outer-article {
+  flex: 0 0 100%;
+  max-width: 100%;
+  overflow: scroll;
+  order: 2;
+  display: block;
+  position: relative;
+  min-height: 1px;
+  padding-left: 14px;
+  padding-right: 14px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(32, 32, 32, 0.4) 100%
+  );
+  padding: 1em;
+}
+.article-container {
+  display: flex;
+  justify-content: space-between;
+  order: 1;
+  width: 175%;
+}
+.article-box {
+  width: 25%;
+  background: rgb(36, 36, 36);
+  text-align: center;
+  height: 100% !important;
+  border-radius: 6px;
+  background: -webkit-linear-gradient(
+    bottom,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(32, 32, 32, 0.4) 100%
+  );
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(83, 83, 83, 0.4) 100%
+  );
+}
+.article-box > h4 {
+  padding-left: 5%;
+  letter-spacing: -0.0625rem;
+  font-size: 1.875rem;
+  line-height: 2.125rem;
+  text-align: left;
+  color: white;
+}
+.the-paragraph > p {
+  margin-bottom: 1.5rem;
+  text-align: left;
+  padding-left: 5%;
+  color: white;
+}
+.the-paragraph {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+strong {
+  color: #ff00bf;
+  text-decoration: underline;
+}
+strong:hover {
+  color: white;
+  background-color: #ff00bf;
+  border: #11111f;
+  padding: 2%;
+  border-radius: 20px;
+}
