@@ -1,30 +1,12 @@
 import React from 'react';
-import './HowItWorks.css';
-import '../ArticlePage/ArticlePage.css';
-// import { url } from 'inspector';
-// const theImg = require('images.ctfassets.net / q8mvene1wzq4 / 3UsEjP8gZqlGqsPoe954mj / 6b305dc…/Bg_Illustration.jpg');
-// const theImg = require(url(https://images.ctfassets.net/q8mvene1wzq4/3UsEjP8gZqlGqsPoe954mj/6b305dc4ab35430c50eddb69fa04788b/Bg_Illustration.jpg));
 
-export default function HowItWorks() {
+export default function HowRidesWork() {
   return (
-    <div className='how-to'>
+    <div className='how-to-rider'>
       <section className='how-to-section'>
-        <video
-          class='video-container video-container-overlay how-img'
-          autoplay=''
-          loop='yes'
-          muted=''
-          data-reactid='.0.1.0.0'
-        >
-          <source
-            type='video/mp4'
-            data-reactid='.0.1.0.0.0'
-            src={require('./Traffic - 6456.mp4')}
-          />
-        </video>
         <div className='outer-article'>
           <div className='title-markers'>
-            <h3>How Does Driving Work?</h3>
+            <h3>How Do Rides Work?</h3>
           </div>
           <div className='article-container'>
             <div className='article-box'>
@@ -32,7 +14,7 @@ export default function HowItWorks() {
                 <h3>Step 1</h3>
                 <div className='para-box'>
                   <div className='para-container'>
-                    <p>Apply to Drive and get approved</p>
+                    <p>Choose your destination</p>
                   </div>
                 </div>
               </div>
@@ -43,7 +25,7 @@ export default function HowItWorks() {
                 <h3>Step 2</h3>
                 <div className='para-box'>
                   <div className='para-container'>
-                    <p>Download the App in the Apple App Store or GooglePlay</p>
+                    <p>See your cost upfront</p>
                   </div>
                 </div>
               </div>
@@ -54,7 +36,7 @@ export default function HowItWorks() {
                 <h3>Step 3</h3>
                 <div className='para-box'>
                   <div className='para-container'>
-                    <p>Accept Rides and Earn Money!</p>
+                    <p>Get a Ride in Minutes!</p>
                   </div>
                 </div>
               </div>
@@ -65,7 +47,7 @@ export default function HowItWorks() {
                 <h3>Step 4</h3>
                 <div className='para-box'>
                   <div className='para-container'>
-                    <p>Cash out instantly with Express Pay*</p>
+                    <p>Pay in the App</p>
                   </div>
                 </div>
               </div>
@@ -74,14 +56,14 @@ export default function HowItWorks() {
           </div>
         </div>
       </section>
-      <section className='happy'>
+      {/* <section className='happy'>
         <div className='happy-image-container' />
         <div className='happy-text-container'>
           <div className='happy-text'>
             <h3>Earning, Flexibility, and Support</h3>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

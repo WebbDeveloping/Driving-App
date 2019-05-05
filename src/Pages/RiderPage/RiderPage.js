@@ -3,6 +3,7 @@ import './RiderPage.css';
 import AnimatedGrid from '../../components/AnimatedGrid';
 import RiderArticle from '../../components/ArticlePage/RiderArticle/RiderArticle';
 import Downloads from '../../components/Downloads/Downloads';
+import HowRidesWork from '../../components/HowItWorks/HowRidesWork/HowRidesWork';
 
 export default class RiderPage extends Component {
   render() {
@@ -32,6 +33,9 @@ export default class RiderPage extends Component {
         />
         <section>
           <RiderArticle />
+        </section>
+        <section>
+          <HowRidesWork />
         </section>
         <Downloads />
         <AnimatedGrid />

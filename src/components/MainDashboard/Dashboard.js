@@ -29,7 +29,7 @@ export default class Dashboard extends Component {
         </div>
 
         <div className='referal_links'>
-          <div id='div2' className='button large shine'>
+          <div id='div2' className='button large shine driver-button'>
             Sign Up
           </div>
         </div>

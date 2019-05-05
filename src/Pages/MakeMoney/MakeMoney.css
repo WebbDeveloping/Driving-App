@@ -214,7 +214,7 @@
 .driver-button {
   padding: 1rem 4rem;
   font-weight: 700;
-  background-color: #5245c2;
+  background-color: #ff00bf;
   color: #ffffff;
   border: none;
   padding-left: 2.5rem;
@@ -224,7 +224,12 @@
   margin-bottom: 5px;
   width: 40%;
   height: auto;
+  text-decoration: none;
 }
+.driver-button > h4 {
+  text-decoration: none;
+}
+
 .not {
   padding: 25px;
 }

@@ -4,6 +4,7 @@ import { Redirect, Link } from 'react-router-dom';
 import TopNav from '../TopNav/TopNav';
 import Footer from '../Footer/Footer';
 import Downloads from '../Downloads/Downloads';
+import '../../Pages/MakeMoney/MakeMoney.css';
 import AnimatedGrid from '../AnimatedGrid';
 const backgroundImg = require('./alessio.jpg');
 
@@ -13,8 +14,8 @@ export default function LandingPage() {
       <div className='hero-image'>
         <div className='hero-text'>
           <Link to='/DriverPage'>
-            <div id='div2' className='button large shine'>
-              Apply
+            <div className='driver-button'>
+              <h4>Apply</h4>
             </div>
           </Link>
           <br />
