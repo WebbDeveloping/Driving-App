@@ -33,24 +33,30 @@
   /* -moz-box-shadow: 0px 0px 15px 5px rgba(255, 0, 191, 0.75); */
   /* box-shadow: 0px 0px 15px 5px rgba(255, 0, 191, 0.35); */
 }
-.animated-container{
+.animated-container {
   position: absolute;
   width: 80%;
 }
-html, body {
+html,
+body {
   position: relative;
   max-width: 100%;
   overflow-x: hidden;
+  font-size: 16px;
+  -webkit-tap-highlight-color: transparent;
 }
-.main{
+.main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   position: relative;
 }
-.top-app-container{
+.top-app-container {
   /* display: flex; */
   /* flex-direction: row; */
+}
+div {
+  display: block;
 }
 
 @keyframes App-logo-spin {

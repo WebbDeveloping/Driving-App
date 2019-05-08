@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './Dashboard.css';
 import BannerAd from '../BannerAd/BannerAd';
 // import photo1 from '../../../public/resources/Images';
@@ -29,9 +30,11 @@ export default class Dashboard extends Component {
         </div>
 
         <div className='referal_links'>
-          <div id='div2' className='button large shine driver-button'>
-            Sign Up
-          </div>
+          <Link to='https://www.lyft.com/drive-with-lyft?utm_medium=d2di_iasms&ref=JOE432426'>
+            <div id='div2' className='button large shine driver-button'>
+              Sign Up
+            </div>
+          </Link>
         </div>
       </div>
     );

@@ -9,26 +9,32 @@ import AnimatedGrid from '../AnimatedGrid';
 const backgroundImg = require('./alessio.jpg');
 
 export default function LandingPage() {
+  const goToLyft = () => {
+    return <Link to='/LyftPage'>words</Link>;
+  };
   return (
-    <div style={{ height: '100%' }} className='shade'>
+    <div style={{ height: '100%' }} className=''>
       <div className='hero-image'>
         <div className='hero-text'>
-          <Link to='/DriverPage'>
-            <div className='driver-button'>
-              <h4>Apply</h4>
-            </div>
+          <Link
+            className='driver-button'
+            to='/DriverPage'
+            style={{ width: '70px', height: '30px', alignItems: 'center' }}
+          >
+            {/* <div className=''> */}
+            <h4>Apply</h4>
+            {/* </div> */}
           </Link>
+          {/* <br />
           <br />
           <br />
           <br />
           <br />
-          <br />
-          <br />
-          <Link to='/RiderPage'>
-            <div className='ride-container'>
-              <button className='rider-button'>Sign Up To Ride</button>
-            </div>
-          </Link>
+          <br /> */}
+
+          <div className='ride-container'>
+            <button className='rider-button'>Sign Up To Ride</button>
+          </div>
         </div>
       </div>
       <div className='why-drive'>
@@ -42,6 +48,7 @@ export default function LandingPage() {
         </div>
       </div>
       <Downloads />
+      <AnimatedGrid />
     </div>
   );
 }
