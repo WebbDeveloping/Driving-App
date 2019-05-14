@@ -28,7 +28,7 @@ export default function Footer() {
             <p>Privacy</p>
           </li>
           <li>
-            <p>©2019 WebbDeveloping.com</p>
+            <p> © 2019 WebbDeveloping.com</p>
           </li>
         </ul>
       </div>
