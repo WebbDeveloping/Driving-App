@@ -7,23 +7,20 @@ export default function Footer() {
     <div className='footer'>
       <div className='footer-container'>
         <div className='social-links'>
-          <ul>
+          <ul className='social-fa'>
             <li>
-              <p>twitter</p>
+              <a href='#' class='fa fa-twitter' />
             </li>
             <li>
-              <img
-                className='fb'
-                alt='fb icon'
-                src={require('./6604422511553238459-original.png')}
-              />
+              <a href='#' class='fa fa-facebook' />
             </li>
             <li>
-              <p>instagram</p>
+              <a href='#' class='fa fa-instagram' />
             </li>
           </ul>
         </div>
-        <ul>
+        <hr />
+        <ul className='privacy-stuff'>
           <li>
             <p>Terms</p>
           </li>
@@ -31,7 +28,7 @@ export default function Footer() {
             <p>Privacy</p>
           </li>
           <li>
-            <p>Joe Webb 2019</p>
+            <p>©2019 WebbDeveloping.com</p>
           </li>
         </ul>
       </div>

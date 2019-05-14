@@ -29,12 +29,18 @@ export default class Dashboard extends Component {
           <BannerAd />
         </div>
 
-        <div className='referal_links'>
-          <Link to='https://www.lyft.com/drive-with-lyft?utm_medium=d2di_iasms&ref=JOE432426'>
-            <div id='div2' className='button large shine driver-button'>
-              Sign Up
+        <div className='referal_links '>
+          {/* <Link
+            style={{ textDecoration: 'none' }}
+            to='https://www.lyft.com/drive-with-lyft?utm_medium=d2di_iasms&ref=JOE432426'
+          >
+            <div className='driver-button'>
+              <h4>Sign Up</h4>
             </div>
-          </Link>
+          </Link> */}
+          <div className='download-button'>
+            <a href='/LyftPage'>Apply Now</a>
+          </div>
         </div>
       </div>
     );

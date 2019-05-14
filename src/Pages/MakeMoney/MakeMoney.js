@@ -116,11 +116,19 @@ export default class MakeMoney extends Component {
                       <div className=' col icon-box a-box not'>
                         <h1>Not a driver yet? Start earning today.</h1>
                         <h4>You’ll get rewards along the way.</h4>
-                        <Link to='/DriverPage'>
-                          <div className='driver-button'>
-                            <h4>Become Driver</h4>
-                          </div>
-                        </Link>
+                        {/* <Link
+                          to='/DriverPage'
+                          style={{ textDecoration: 'none' }}
+                        > */}
+                        <div className='driver-button'>
+                          <a
+                            style={{ color: 'white', textDecoration: 'none' }}
+                            href='/LyftPage'
+                          >
+                            Become a Driver!
+                          </a>
+                        </div>
+                        {/* </Link> */}
                       </div>
                     </div>
                   </div>

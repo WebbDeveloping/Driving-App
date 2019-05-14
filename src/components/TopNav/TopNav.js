@@ -28,9 +28,9 @@ export default class TopNav extends Component {
               <a href='/DriverPage'>Driver</a>
             </Link>
           </li>
-          <li>
+          {/* <li>
             <a href='#'>Contact</a>
-          </li>
+          </li> */}
         </ul>
       </nav>
     );

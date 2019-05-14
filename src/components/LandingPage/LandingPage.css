@@ -60,14 +60,68 @@
   );
   background-color: #11111f;
 }
+.link-button {
+  background-color: #ff00bf;
+  color: #ffffff;
+  border: none;
+  border-radius: 99999rem;
+  border: none;
+  display: inline-block;
+  font-family: inherit;
+  font-size: inherit;
+  text-decoration: none !important;
+  box-shadow: 0 5px 0 rgba(17, 17, 31, 0.25);
+  margin-bottom: 5px;
+  padding: 1rem 4rem;
+  font-weight: 700;
+}
 .why-drive {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: white;
   align-items: center;
-  padding: 46px 0;
-  background-color: #ffffffde;
+  padding: 1em 0;
+  background-color: #fffffff5;
+}
+.why-button {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -14px;
+  margin-right: -14px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+.why-button > a {
+  /* background-color: #ff00bf; */
+  color: #ffffff;
+  border: none;
+  border-radius: 99999rem;
+  border: none;
+  display: inline-block;
+  font-family: inherit;
+  font-size: inherit;
+  text-decoration: none !important;
+  box-shadow: 0 5px 0 rgba(17, 17, 31, 0.25);
+  margin-bottom: 5px;
+  padding: 10px 40px;
+  font-weight: 700;
+}
+.wd {
+  background-color: #ff00bf;
+}
+.wd:hover {
+  background-color: #11111f;
+  color: #ff00bf;
+}
+.wr {
+  background-color: #11111f;
+  color: #ff00bf;
+}
+.wr:hover {
+  background-color: #ff00bf;
+  color: #11111f;
 }
 #white {
   background-color: #ff00bf;

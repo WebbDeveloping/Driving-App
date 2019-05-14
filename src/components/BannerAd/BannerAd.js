@@ -8,7 +8,7 @@ export default function BannerAd() {
         <div id='banner'>
           <div className='active bannerItem'>
             <span className='banner-header display-1'>Earn up to $1500!</span>
-            <div className='banner-text'>Become a Lyft Driver Today!</div>
+            <div className='banner-text'>Become a Driver Today!</div>
 
             <div className='btn btn-outline btn-lg' />
           </div>
