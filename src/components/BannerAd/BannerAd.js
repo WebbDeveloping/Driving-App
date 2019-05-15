@@ -7,7 +7,9 @@ export default function BannerAd() {
       <div className='banner-example'>
         <div id='banner'>
           <div className='active bannerItem'>
-            <span className='banner-header display-1'>Earn up to $1500!</span>
+            <span className='banner-header display-1'>
+              Earn Up To $1250 Guaranteed!
+            </span>
             <div className='banner-text'>Become a Driver Today!</div>
 
             <div className='btn btn-outline btn-lg' />

@@ -28,8 +28,10 @@ export default function LandingPage() {
         </div> */}
         <div className='col '>
           <div className=' col icon-box a-box not'>
-            <h1>Not a driver yet? Start earning today.</h1>
-            <h4>You’ll get rewards along the way.</h4>
+            <h1 style={{ color: '#ff00bf' }}>
+              The Average Ride Share Driver Earns $26 an Hour!
+            </h1>
+            <h4>Apply Today and Start Earning!!</h4>
             {/* <Link to='/DriverPage' style={{ textDecoration: 'none' }}>
               <div className='driver-button'>
                 <h4>Apply to Drive</h4>
