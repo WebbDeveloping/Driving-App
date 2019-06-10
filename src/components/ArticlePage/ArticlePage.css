@@ -21,6 +21,26 @@
   order: 1;
   width: 175%;
 }
+.single-step-container {
+  width: 100%;
+}
+.scroll-box {
+  width: 60%;
+  background: rgb(36, 36, 36);
+  text-align: center;
+  height: 100% !important;
+  border-radius: 6px;
+  background: -webkit-linear-gradient(
+    bottom,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(32, 32, 32, 0.4) 100%
+  );
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(83, 83, 83, 0.4) 100%
+  );
+}
 .article-box {
   width: 30%;
   background: rgb(36, 36, 36);

@@ -3,8 +3,9 @@
   flex-direction: column;
   justify-content: space-between;
   /* background: grey; */
-  /* margin: 2em; */
+  margin: 1em;
   height: 100vh;
+  margin-bottom: 1em;
 }
 .ribbon-container {
   width: 100%;
@@ -24,6 +25,8 @@
   text-align: left;
   width: 50%;
   margin: 2em;
+  padding: 2em;
+  margin-top: 10em;
   /* background: darkgray; */
 }
 .img_container {
@@ -416,6 +419,8 @@
   text-shadow: 0.5px 0.5px 1px white;
   background-color: #11111f;
   width: 130%;
+  margin-top: 1.5em;
+  /* padding-bottom: 1em; */
 }
 .title:before {
   content: '';

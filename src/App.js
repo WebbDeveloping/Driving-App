@@ -7,6 +7,7 @@ import TopNav from './components/TopNav/TopNav';
 
 import Footer from './components/Footer/Footer';
 import RiderPage from './Pages/RiderPage/RiderPage';
+// import SlideShow from './components/SlideShow/SlideShow';
 
 class App extends Component {
   render() {
@@ -14,7 +15,7 @@ class App extends Component {
       <div className='App'>
         <TopNav />
         {appRoutes}
-        {/* <RiderPage / */}
+        {/* <SlideShow /> */}
         <Footer />
       </div>
     );

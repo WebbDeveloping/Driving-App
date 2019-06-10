@@ -13,7 +13,7 @@ class Main extends Component {
           <div className='top-app-container'>
             <Dashboard />
           </div>
-          <div style={{ position: 'relative' }}>
+          <div className='none' style={{ marginTop: '2em' }}>
             <img
               className='how-img'
               alt='map and keys'

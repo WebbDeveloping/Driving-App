@@ -65,6 +65,7 @@
   min-height: 1px;
   padding-left: 14px;
   padding-right: 14px;
+  padding-bottom: 10em;
 }
 .download-button > a {
   background-color: #ff00bf;
